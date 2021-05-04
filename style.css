@@ -1,0 +1,205 @@
+.menu{
+	text-align: center;
+}
+.menu a{
+text-decoration:none;
+color: black;
+display: inline-block;
+width: 100px;
+}
+.menu a:hover{
+	background-color: lightgrey;
+}
+.header{
+	text-align: center;
+	color: white;
+background-image:url(images/polygons.png);
+padding: 200px 0;
+background-repeat: no-repeat;
+background-position: center top;4
+}
+.header a{
+	padding: 12px 24px;
+	background-color: white;
+	border-radius: 10px;
+	text-decoration:none;
+	color: black;
+	margin-top: 35px;
+}
+.header a:hover{
+	background-color: #b1b1b2;
+}
+.company{
+	max-width:1200px;
+	margin: 0px auto;
+	padding: 40px 0;
+}
+.company img{
+	width: 400px;
+    margin-top: 0;
+    margin: 30px;
+    float: right; 
+}
+h2{
+	text-align: center;
+}
+.team{
+	text-align: center;
+}
+.membear{
+	width: 20%;
+	display: inline-block;
+   margin: 20px 10px;
+   border: grey 2px solid;
+   box-shadow: 0 2px 5px 0 grey;
+   padding: 20px;
+   text-align: left;
+}
+.membear h3 {
+ font-size: 24px;
+ font-weight: 400;
+}
+.position{
+	opacity: 0.6;
+}
+.membear a{
+	display: inline-block;
+	width: 100%;
+	background-color: #055b73;
+	border-radius: 10px;
+	text-decoration: none;
+	color: white;
+	padding: 14px 0;
+	text-align: center;
+}
+.membear img{
+	width: 100%;
+
+}
+.prises{
+	background-color: #616161;
+    text-align: center;
+    padding: 50px 0px;
+}
+.prises h2, .prises p{
+	color: white;
+}
+.tarif{
+	display: inline-block;
+	width: 30%;
+	margin: 10px;
+	vertical-align: middle;
+	background-color: white;
+	padding: 0px;
+	min-width: 150px;
+
+}
+.tarif li{
+	list-style-type: none;
+    border-bottom: 1px solid #dddddd;
+    padding: 16px 0px;
+}
+.tarif-name{
+    background-color:black;
+    color:white;
+    font-size: 24px;
+    padding: 32px 0;
+}
+.tarif ul{
+	margin: 0;
+	padding: 0;
+}
+.tarif span{
+	font-weight: bold;
+}
+.tarif a{
+	padding: 12px 24px;
+	background-color: black;
+	color: white;
+	text-decoration:none;
+	border-radius: 10px;
+}
+.tarif a:hover{
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+.tarif li:last-child{
+	background-color: #f1f1f1;
+	padding: 24px 0;
+}
+.prises .prise{
+	color: black;
+	font-weight: bold;
+	font-size: 24px;
+}
+.prises .pereod{
+	color: black;
+	opacity: 0.4;
+}
+.tarif .best{
+	background-color: #055b73;
+	padding: 48px 0;
+}
+.contact{
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f1f1f1;
+}
+.contact-info{
+	text-align: left;
+	padding-left: 30px;
+	background-position: left center;
+	background-repeat:no-repeat;
+	background-size: 18px 18px;
+	margin-left: 5%;
+}
+.contact-address{
+	background-image: url(images/address.png);
+}
+.contact-phone{
+	background-image: url(images/phone.png);
+}
+.contact-mail{
+	background-image: url(images/mail.png);
+}
+button{
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	border: 0px;
+	padding: 10px 16px;
+}
+button:hover{
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+.contact input{
+	width: 90%;
+	padding: 8px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 575px){
+	.menu a{
+		padding: 20px 0;
+		width: 100%;
+	}
+    .header{
+    	background-size: cover;
+    	background-position: center center;
+    	padding: 100px 10px;
+    	margin-top: 0;
+    	min-height: 300px;
+    	 
+    }
+}
